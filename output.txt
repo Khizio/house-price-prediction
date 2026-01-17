@@ -1,0 +1,32 @@
+﻿--- Step 1: Loading the Data ---
+First 5 rows of our dataset:
+   Area_sqft  Bedrooms  Bathrooms  Age_years  Price_USD
+0       1500         3          2         10     250000
+1       2000         4          3          5     350000
+2       1200         2          1         15     180000
+3       2500         4          3          2     450000
+4       1800         3          2          8     290000
+
+--- Step 2: Data Cleaning & Preprocessing ---
+Missing values in each column:
+Area_sqft    0
+Bedrooms     0
+Bathrooms    0
+Age_years    0
+Price_USD    0
+dtype: int64
+Training samples: 16
+Testing samples: 4
+
+--- Step 4: Training the Model ---
+Model training complete!
+
+--- Step 5: Making Predictions ---
+Predicted price for a 2000 sqft, 3BR, 5yr old house: $321,136.22
+
+--- Step 6: Evaluation ---
+Mean Squared Error: 973817949.81
+R-squared (Accuracy Score): 0.86
+
+Graph saved to: docs\prediction_plot.png
+Close the graph window to finish the script.
